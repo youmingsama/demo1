@@ -1,0 +1,248 @@
+[gd_scene load_steps=49 format=3 uid="uid://dndnb68u8ad76"]
+
+[ext_resource type="Texture2D" uid="uid://ch4b2xgrf4f36" path="res://游戏素材资源/游戏资源/远程弓箭手/受击/1.png" id="1_bccif"]
+[ext_resource type="Script" uid="uid://m1mcok58x3nj" path="res://游戏场景/角色类场景/远程弓箭手/远程弓箭手.gd" id="1_wta4k"]
+[ext_resource type="Texture2D" uid="uid://8dtunj0hv5xc" path="res://游戏素材资源/游戏资源/远程弓箭手/受击/2.png" id="2_wta4k"]
+[ext_resource type="Texture2D" uid="uid://pxyiacdx66kr" path="res://游戏素材资源/游戏资源/远程弓箭手/受击/3.png" id="3_4hrba"]
+[ext_resource type="Texture2D" uid="uid://dnjyfb6vhhlh8" path="res://游戏素材资源/游戏资源/远程弓箭手/受击/4.png" id="4_rlr1j"]
+[ext_resource type="Texture2D" uid="uid://dddnpovmcnt8o" path="res://游戏素材资源/游戏资源/远程弓箭手/受击/5.png" id="5_l488m"]
+[ext_resource type="Texture2D" uid="uid://8i4bu4poiaum" path="res://游戏素材资源/游戏资源/远程弓箭手/受击/6.png" id="6_mymrb"]
+[ext_resource type="Texture2D" uid="uid://c8b3iw8jaycel" path="res://游戏素材资源/游戏资源/远程弓箭手/特殊攻击/1_pixian_ai.png" id="8_plnvk"]
+[ext_resource type="Texture2D" uid="uid://d4igb0xt23vyi" path="res://游戏素材资源/游戏资源/远程弓箭手/特殊攻击/2_pixian_ai.png" id="9_y8bvi"]
+[ext_resource type="Texture2D" uid="uid://dasv070bv4bh6" path="res://游戏素材资源/游戏资源/远程弓箭手/特殊攻击/3_pixian_ai.png" id="10_y6vt5"]
+[ext_resource type="Texture2D" uid="uid://cce31fsjmnk27" path="res://游戏素材资源/游戏资源/远程弓箭手/特殊攻击/4_pixian_ai.png" id="11_drgti"]
+[ext_resource type="Texture2D" uid="uid://wyqs7gisaupt" path="res://游戏素材资源/游戏资源/远程弓箭手/特殊攻击/5_pixian_ai.png" id="12_iqw6f"]
+[ext_resource type="Texture2D" uid="uid://b4qg0f52ih2lu" path="res://游戏素材资源/游戏资源/远程弓箭手/特殊攻击/6_pixian_ai.png" id="13_b8gfn"]
+[ext_resource type="Texture2D" uid="uid://di7r704alj8d2" path="res://游戏素材资源/游戏资源/远程弓箭手/特殊攻击/7_pixian_ai.png" id="14_t0bs6"]
+[ext_resource type="Texture2D" uid="uid://c5y511ur6bsc3" path="res://游戏素材资源/游戏资源/远程弓箭手/特殊攻击/8_pixian_ai.png" id="15_23ox7"]
+[ext_resource type="Texture2D" uid="uid://k7ct5q5uhqaw" path="res://游戏素材资源/游戏资源/远程弓箭手/特殊攻击/9_pixian_ai.png" id="16_5f78h"]
+[ext_resource type="Texture2D" uid="uid://dtqb7axklpa6w" path="res://游戏素材资源/游戏资源/远程弓箭手/死亡/1.png" id="17_5f78h"]
+[ext_resource type="Texture2D" uid="uid://b71e3wisjwyby" path="res://游戏素材资源/游戏资源/远程弓箭手/特殊攻击/10_pixian_ai.png" id="17_u8nro"]
+[ext_resource type="Texture2D" uid="uid://4bfed2ikqy0" path="res://游戏素材资源/游戏资源/远程弓箭手/特殊攻击/11_pixian_ai.png" id="18_my8um"]
+[ext_resource type="Texture2D" uid="uid://dy3egim06dip6" path="res://游戏素材资源/游戏资源/远程弓箭手/死亡/2.png" id="18_u8nro"]
+[ext_resource type="Texture2D" uid="uid://dm6y8o71n7rmk" path="res://游戏素材资源/游戏资源/远程弓箭手/特殊攻击/12_pixian_ai.png" id="19_3h6hm"]
+[ext_resource type="Texture2D" uid="uid://biiatmj67vksb" path="res://游戏素材资源/游戏资源/远程弓箭手/死亡/3.png" id="19_my8um"]
+[ext_resource type="Texture2D" uid="uid://cmnwcspsws1p0" path="res://游戏素材资源/游戏资源/远程弓箭手/死亡/4.png" id="20_3h6hm"]
+[ext_resource type="Texture2D" uid="uid://q0cf7vhxmupq" path="res://游戏素材资源/游戏资源/远程弓箭手/特殊攻击/13_pixian_ai.png" id="20_lqh35"]
+[ext_resource type="Texture2D" uid="uid://8kau43aiasm4" path="res://游戏素材资源/游戏资源/远程弓箭手/死亡/5.png" id="21_lqh35"]
+[ext_resource type="Texture2D" uid="uid://csgavnwahvxws" path="res://游戏素材资源/游戏资源/远程弓箭手/特殊攻击/14_pixian_ai.png" id="21_v4bfs"]
+[ext_resource type="Texture2D" uid="uid://bg07lse7g6c8u" path="res://游戏素材资源/游戏资源/远程弓箭手/特殊攻击/15_pixian_ai.png" id="22_jf7w4"]
+[ext_resource type="Texture2D" uid="uid://dcigcmqohyjxf" path="res://游戏素材资源/游戏资源/远程弓箭手/死亡/6.png" id="22_v4bfs"]
+[ext_resource type="Texture2D" uid="uid://ts1dkbhi5ldq" path="res://游戏素材资源/游戏资源/远程弓箭手/死亡/7.png" id="23_jf7w4"]
+[ext_resource type="Texture2D" uid="uid://dd85omih2kntg" path="res://游戏素材资源/游戏资源/远程弓箭手/特殊攻击/16_pixian_ai.png" id="23_og0tj"]
+[ext_resource type="Texture2D" uid="uid://br45vf7rfmshh" path="res://游戏素材资源/游戏资源/远程弓箭手/死亡/8.png" id="24_og0tj"]
+[ext_resource type="Texture2D" uid="uid://b4wpcxcl0lvjt" path="res://游戏素材资源/游戏资源/远程弓箭手/特殊攻击/17_pixian_ai.png" id="24_vjc03"]
+[ext_resource type="Texture2D" uid="uid://bo4r136y6anco" path="res://游戏素材资源/游戏资源/远程弓箭手/死亡/9.png" id="25_vjc03"]
+[ext_resource type="Texture2D" uid="uid://bxbbufhbnau70" path="res://游戏素材资源/游戏资源/远程弓箭手/死亡/10.png" id="26_jqqhu"]
+[ext_resource type="Texture2D" uid="uid://c5xu20arwwva8" path="res://游戏素材资源/游戏资源/远程弓箭手/死亡/11.png" id="27_41q7h"]
+[ext_resource type="Texture2D" uid="uid://co3tnjaf8ruoj" path="res://游戏素材资源/游戏资源/远程弓箭手/死亡/12.png" id="28_2aq53"]
+[ext_resource type="Texture2D" uid="uid://cmixdrfulpsw0" path="res://游戏素材资源/游戏资源/远程弓箭手/跑/1_pixian_ai.png" id="29_oqp4y"]
+[ext_resource type="Texture2D" uid="uid://c01e4gmiafe0r" path="res://游戏素材资源/游戏资源/远程弓箭手/跑/2_pixian_ai.png" id="30_p1sur"]
+[ext_resource type="Texture2D" uid="uid://cxwie41pamlta" path="res://游戏素材资源/游戏资源/远程弓箭手/跑/3_pixian_ai.png" id="31_2r0i1"]
+[ext_resource type="Texture2D" uid="uid://bjo20kcut3b1o" path="res://游戏素材资源/游戏资源/远程弓箭手/跑/4_pixian_ai.png" id="32_s058q"]
+[ext_resource type="Texture2D" uid="uid://svu03ocy2l75" path="res://游戏素材资源/游戏资源/远程弓箭手/跑/5_pixian_ai.png" id="33_vptcg"]
+[ext_resource type="Texture2D" uid="uid://drsfbqbenpain" path="res://游戏素材资源/游戏资源/远程弓箭手/跑/6_pixian_ai.png" id="34_4mthl"]
+[ext_resource type="Texture2D" uid="uid://dcoilgu0hw5hd" path="res://游戏素材资源/游戏资源/远程弓箭手/跑/7_pixian_ai.png" id="35_5artt"]
+[ext_resource type="Texture2D" uid="uid://cahlnonx31ady" path="res://游戏素材资源/游戏资源/远程弓箭手/跑/8_pixian_ai.png" id="36_r43xi"]
+[ext_resource type="Texture2D" uid="uid://cb4blnsqlekr0" path="res://游戏素材资源/游戏资源/远程弓箭手/跑/9_pixian_ai.png" id="37_5bkp3"]
+[ext_resource type="Texture2D" uid="uid://cud671cxuryr6" path="res://游戏素材资源/游戏资源/远程弓箭手/跑/10_pixian_ai.png" id="38_4kpsh"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_666fq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_bccif")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_wta4k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_4hrba")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_rlr1j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_l488m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_mymrb")
+}],
+"loop": false,
+"name": &"受击",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_plnvk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_y8bvi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_y6vt5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_drgti")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_iqw6f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_b8gfn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_t0bs6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_23ox7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_5f78h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_u8nro")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_my8um")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_3h6hm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_lqh35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_v4bfs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_jf7w4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_og0tj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_vjc03")
+}],
+"loop": false,
+"name": &"攻击",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_5f78h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_u8nro")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_my8um")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_3h6hm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_lqh35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_v4bfs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_jf7w4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_og0tj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_vjc03")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_jqqhu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_41q7h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_2aq53")
+}],
+"loop": false,
+"name": &"死亡",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("29_oqp4y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_p1sur")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_2r0i1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_s058q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_vptcg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_4mthl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_5artt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_r43xi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_5bkp3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_4kpsh")
+}],
+"loop": true,
+"name": &"移动",
+"speed": 15.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bccif"]
+size = Vector2(21, 50)
+
+[node name="远程弓箭手" type="CharacterBody2D"]
+script = ExtResource("1_wta4k")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+scale = Vector2(0.3, 0.3)
+sprite_frames = SubResource("SpriteFrames_666fq")
+animation = &"攻击"
+autoplay = "移动"
+frame = 15
+offset = Vector2(0, -110)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1.5, 4)
+shape = SubResource("RectangleShape2D_bccif")
+
+[node name="RightDownCast" type="RayCast2D" parent="."]
+position = Vector2(30, 0)
+
+[node name="LeftDownCast2" type="RayCast2D" parent="."]
+position = Vector2(-30, 0)
+
+[node name="R" type="Node2D" parent="."]
+position = Vector2(41, 1)
+
+[node name="L" type="Node2D" parent="."]
+position = Vector2(-40, 0)
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+position = Vector2(1, 2)
+target_position = Vector2(134, -1)
+
+[node name="RayCast2D2" type="RayCast2D" parent="."]
+position = Vector2(1, 2)
+target_position = Vector2(-125, 0)
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
+[connection signal="frame_changed" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_frame_changed"]

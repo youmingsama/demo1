@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://yx4h1obllb78"]
+
+[ext_resource type="PackedScene" uid="uid://dndnb68u8ad76" path="res://游戏场景/角色类场景/远程弓箭手/远程弓箭手.tscn" id="1_1sf6k"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mwx5a"]
+size = Vector2(736.5, 61.5)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_1sf6k"]
+radius = 84.17244
+
+[node name="测试" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(379.75, 456.75)
+shape = SubResource("RectangleShape2D_mwx5a")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(35, 336)
+shape = SubResource("CircleShape2D_1sf6k")
+
+[node name="远程弓箭手" parent="." instance=ExtResource("1_1sf6k")]
+position = Vector2(332, 196)
